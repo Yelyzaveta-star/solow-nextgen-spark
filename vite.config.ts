@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // ADD THIS LINE ⬇⬇⬇⬇⬇
+  base: "/solow-nextgen-spark/",
+
   server: {
     host: "::",
     port: 8080,
